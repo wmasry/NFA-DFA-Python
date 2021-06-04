@@ -47,10 +47,6 @@ def initial(s_nfa, i_0_o_nfa, i_1_o_nfa, s_dfa, i_0_o_dfa, i_1_o_dfa):
   i_0_o_dfa.append(i_0_o_nfa[0])
   i_1_o_dfa.append(i_1_o_nfa[0])
 
-  state_from_i0o = []
-  state_from_i1o = []
-
-
   temp_new_states = []
   temp_new_states.append(i_0_o_nfa[0])
   temp_new_states.append(i_1_o_nfa[0])
